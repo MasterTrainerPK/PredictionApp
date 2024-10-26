@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PredictionApp</string>
+    <string name="forsee_the_future">Forsee the Future</string>
+    <string name="predict">Predict</string>
+    <string name="title">Forsee the Future....</string>
+    <string name="what_do_you_want_to_predict">What do you want to predict?</string>
 </resources>

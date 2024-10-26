@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="409dp"
+    android:layout_height="152dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="116dp"
+    android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="326dp"
+            android:layout_height="53dp"
+            android:text="@string/what_do_you_want_to_predict"
+            android:textAlignment="center" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="263dp"
+            android:layout_height="80dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="336dp"
+                android:layout_height="89dp"
+                android:hint="@string/title"
+                android:textColorHint="#546E7A" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
