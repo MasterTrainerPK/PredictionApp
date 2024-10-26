@@ -10,7 +10,7 @@ import androidx.core.view.WindowInsetsCompat;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    private ArrayList predictPhrases; 
+    private ArrayList<String> predictPhrases; 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +22,11 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+
+    public void addPrediction(String p){
+    
+    }
+    
     public getQuestion(int i){
         return predictPhrases.get(i);
     }
