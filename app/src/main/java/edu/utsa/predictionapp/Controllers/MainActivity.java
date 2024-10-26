@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        final button = findViewById(R.id.button_id);
+        final button = findViewById(R.id.predictButton);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v){
                 //insert code for when button is pressed
