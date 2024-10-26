@@ -1,6 +1,8 @@
-package edu.utsa.predictionapp;
+package edu.utsa.predictionapp.Controllers;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,6 +10,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import java.util.ArrayList;
+
+import edu.utsa.predictionapp.R;
 
 public class MainActivity extends AppCompatActivity { 
 
@@ -17,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        final button = findViewById(R.id.predictButton);
+        final Button button = findViewById(R.id.predictButton);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v){
                 //insert code for when button is pressed

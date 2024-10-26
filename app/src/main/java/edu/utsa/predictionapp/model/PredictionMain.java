@@ -1,10 +1,10 @@
-package edu.utsa.predictionapp;
+package edu.utsa.predictionapp.model;
 import java.util.ArrayList;
 
 public class PredictionMain{
-    private ArrayList<String> predictPhrases;
+    private final ArrayList<String> predictPhrases;
 
-    public PredictionMain(String phrases){
+    public PredictionMain(ArrayList<String> phrases){
         predictPhrases = phrases;
     }
 
@@ -16,7 +16,7 @@ public class PredictionMain{
         predictPhrases.add(p);
     }
     
-    public getQuestion(int i){
+    public String getQuestion(int i){
         return predictPhrases.get(i);
     }
 }
