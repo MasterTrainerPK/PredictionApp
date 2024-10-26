@@ -3,6 +3,7 @@
     <string name="forsee_the_future">Forsee the Future</string>
     <string name="predict">Predict</string>
     <string name="title">Forsee the Future....</string>
-    <string name="what_do_you_want_to_predict">What do you want to predict?</string>
+    <string name="prediction_question">What do you predict?</string>
     <string name="hint">hint</string>
+    <string name="sample_question"> Will we win RowdyHacks?</string>
 </resources>

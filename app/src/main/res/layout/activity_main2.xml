@@ -15,6 +15,7 @@
         android:layout_height="17dp"
         android:layout_weight="1"
         android:text="What is your Prediction?"
+        android:fontFamily="monospace"
         android:textAlignment="center"
         android:textSize="34sp" />
 
