@@ -30,6 +30,7 @@
             android:textAlignment="center" />
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputID"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -39,6 +40,7 @@
                 android:layout_height="89dp"
                 android:hint="@string/title"
                 android:textColorHint="#546E7A" />
+
 
         </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>

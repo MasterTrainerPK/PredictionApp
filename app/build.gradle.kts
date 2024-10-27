@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "edu.utsa.predictionapp"
+    namespace = "edu.ubsan.prediction"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "edu.utsa.predictionapp"
+        applicationId = "edu.ubsan.prediction"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
@@ -28,6 +28,7 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
+
     }
 }
 

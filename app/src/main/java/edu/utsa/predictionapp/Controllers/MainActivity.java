@@ -18,15 +18,20 @@ import java.util.ArrayList;
 
 import edu.utsa.predictionapp.MainActivity2;
 import edu.utsa.predictionapp.R;
+import edu.utsa.predictionapp.model.Person;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        Person person = new Person();
+        person.name = "Sample Name";
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button button = findViewById(R.id.predictButton);
         button.setOnClickListener(new View.OnClickListener() {
+
             public void onClick(View v) {
                 TextInputEditText inputText = findViewById(R.id.userInput);
                 String text = String.valueOf(inputText.getText());
