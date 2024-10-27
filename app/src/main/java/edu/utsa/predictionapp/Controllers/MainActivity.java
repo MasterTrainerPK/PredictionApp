@@ -1,23 +1,16 @@
 package edu.utsa.predictionapp.Controllers;
 
+import static android.os.Build.VERSION_CODES.R;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import com.google.android.material.textfield.TextInputEditText;
 
-import java.util.ArrayList;
-
-import edu.utsa.predictionapp.MainActivity2;
-import edu.utsa.predictionapp.R;
 import edu.utsa.predictionapp.model.Person;
 
 public class MainActivity extends AppCompatActivity {
@@ -28,12 +21,12 @@ public class MainActivity extends AppCompatActivity {
         Person person = new Person();
         person.name = "Sample Name";
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Button button = findViewById(R.id.predictButton);
+        setContentView(R);
+        Button button = findViewById(R);
         button.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                TextInputEditText inputText = findViewById(R.id.userInput);
+                TextInputEditText inputText = findViewById(R);
                 String text = String.valueOf(inputText.getText());
                 startActivity(
                         new Intent(MainActivity.this, MainActivity2.class)

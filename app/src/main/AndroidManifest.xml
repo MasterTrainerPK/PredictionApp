@@ -13,13 +13,13 @@
         android:theme="@style/Theme.PredictionApp"
         tools:targetApi="31">
         <activity
-            android:name=".Controllers.PredictActivity"
-            android:exported="false" />
+            android:name="edu.utsa.predictionapp.Controllers.PredictActivity"
+            android:exported="true" />
         <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
+            android:name="edu.utsa.predictionapp.Controllers.MainActivity2"
+            android:exported="true" />
         <activity
-            android:name=".Controllers.MainActivity"
+            android:name="edu.utsa.predictionapp.Controllers.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

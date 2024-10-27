@@ -1,5 +1,6 @@
 package edu.utsa.predictionapp.model;
 
+
 import java.util.ArrayList;
 
 public class Person {
