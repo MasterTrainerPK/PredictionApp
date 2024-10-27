@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="17dp"
         android:layout_weight="1"
-        android:text="What is your Prediction?"
+        android:text="@string/prediction_question_prompt"
         android:fontFamily="monospace"
         android:textAlignment="center"
         android:textSize="34sp" />
@@ -25,10 +25,11 @@
         android:layout_weight="1">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/userInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/hint"
-            android:minHeight="48dp" />
+            android:hint="@string/sample_question"
+            android:minHeight="48dp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
 </LinearLayout>

@@ -6,4 +6,5 @@
     <string name="prediction_question">What do you predict?</string>
     <string name="hint">hint</string>
     <string name="sample_question"> Will we win RowdyHacks?</string>
+    <string name="prediction_question_prompt">What do you want predicted?</string>
 </resources>
