@@ -1,5 +1,6 @@
 package edu.utsa.predictionapp.Controllers;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -15,6 +16,7 @@ import com.google.android.material.textfield.TextInputEditText;
 
 import java.util.ArrayList;
 
+import edu.utsa.predictionapp.MainActivity2;
 import edu.utsa.predictionapp.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -27,7 +29,11 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 TextInputEditText inputText = findViewById(R.id.userInput);
-                inputText.getText();
+                String text = String.valueOf(inputText.getText());
+                startActivity(
+                        new Intent(MainActivity.this, MainActivity2.class)
+                            .putExtra("input", text)
+                );
                 //insert code for when button is pressed
             }
         });
